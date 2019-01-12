@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<meta charset="UTF-8">
+
+
+
+<html>
+<head>
+    <title> Author Registration Form </title>
+
+</head>
+<link rel="stylesheet" href="styles.css">
+
+
+<body>
+<form method="post" action="http://localhost:8080/Register">
+    <h3>AUTHOR REGISTRATION FORM</h3>
+
+
+    <table align="center" cellpadding = "10">
+
+        <!----- First Name ---------------------------------------------------------->
+        <tr>
+            <td>FIRST NAME</td>
+            <td><input type="text" name="firstname" maxlength="30"/>
+                (max 30 characters a-z and A-Z)
+            </td>
+
+        </tr>
+
+        <!----- Last Name ---------------------------------------------------------->
+        <tr>
+            <td>LAST NAME</td>
+            <td><input type="text" name="lastname" maxlength="30"/>
+                (max 30 characters a-z and A-Z)
+            </td>
+        </tr>
+
+
+        <!----- Mobile Number ---------------------------------------------------------->
+        <tr>
+            <td>MOBILE NUMBER</td>
+            <td>
+                <input type="text" name="mobilenumber" maxlength="10" />
+                (10 digit number)
+            </td>
+        </tr>
+
+        <!----- Email Id ---------------------------------------------------------->
+        <tr>
+            <td>EMAIL ID</td>
+            <td><input type="text" name="emailid" maxlength="100" /></td>
+        </tr>
+
+
+        <!----- Choose password ---------------------------------------------------------->
+        <tr>
+            <td>PASSWORD</td>
+            <td><input type="password" name="password" maxlength="100" /></td>
+        </tr>
+        <!----- Submit and Reset ------------------------------------------------->
+        <tr>
+            <td colspan="2" align="center">
+                <input type="submit" value="Submit">
+                <input type="reset" value="Reset">
+            </td>
+        </tr>
+    </table>
+
+</form>
+
+</body>
+</html>

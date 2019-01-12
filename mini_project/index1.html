@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:http="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="UTF-8">
+    <title>Reviewer</title>
+</head>
+<body>
+<link rel="stylesheet" href="styles2.css">
+<div class="form">
+
+
+    <div class="tab-content">
+        <div id="signup">
+            <h1>Reviewer Sign Up</h1>
+
+            <form action="http://localhost:8080/Register1" method="post">
+
+                <div class="top-row">
+                    <div class="field-wrap">
+                        <label>
+                            First Name<span class="req">*</span>
+                        </label>
+                        <input type="text" required autocomplete="off" name="firstname" />
+                    </div>
+
+                    <div class="field-wrap">
+                        <label>
+                            Last Name<span class="req">*</span>
+                        </label>
+                        <input type="text"required autocomplete="off" name="lastname"/>
+                    </div>
+                </div>
+
+                <div class="field-wrap">
+                    <label>
+                        Phone Number<span class="req">*</span>
+                    </label>
+                    <input type="text" required autocomplete="off" name="mobilenumber" />
+                </div>
+
+                <div class="field-wrap">
+                    <label>
+                        Email Address<span class="req">*</span>
+                    </label>
+                    <input type="email"required autocomplete="off" name="emailid"/>
+                </div>
+
+                <div class="field-wrap">
+                    <label>
+                        Set A Password<span class="req">*</span>
+                    </label>
+                    <input type="password"required autocomplete="off" name="password"/>
+                </div>
+
+                <div class="field-wrap">
+                    <label>
+                        What's your interest ? e.g: tech, sports<span class="req">*</span>
+                    </label>
+                    <input type="text" required autocomplete="off" name="interest"/>
+                </div>
+
+                <button type="submit" class="button button-block"/>Submit Details</button>
+
+            </form>
+
+        </div>
+
+        <div id="login">
+            <h1>Reviewer Log in</h1>
+
+            <form action="/" method="post">
+
+                <div class="field-wrap">
+                    <label>
+                        Email Address<span class="req">*</span>
+                    </label>
+                    <input type="email"required autocomplete="off"/>
+                </div>
+
+                <div class="field-wrap">
+                    <label>
+                        Password<span class="req">*</span>
+                    </label>
+                    <input type="password"required autocomplete="off"/>
+                </div>
+
+                <p class="forgot"><a href="#">Forgot Password?</a></p>
+
+                <button class="button button-block"/>Log In</button>
+
+            </form>
+
+        </div>
+
+    </div><!-- tab-content -->
+
+</div> <!-- /form -->
+
+
+
+
+</body>
+</html>
